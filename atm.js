@@ -59,5 +59,9 @@ if (operationAns.operation === "fast cash") {
             choices: [2000, 3000, 5000, 1000]
         }
     ]);
+    if (cashAns.fastcash < mybalance) {
+        mybalance -= cashAns.fastcash;
+        console.log("your remaining balance is: " + mybalance);
+    }
 }
 console.log("Thank you!");

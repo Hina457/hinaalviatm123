@@ -90,7 +90,13 @@ if (operationAns.operation === "fast cash"){
 
       }
     ]
+    
   );
+
+  if(cashAns.fastcash < mybalance ){
+    mybalance -= cashAns.fastcash;
+  console.log("your remaining balance is: " +mybalance);
+}
 }
   
   console.log(
