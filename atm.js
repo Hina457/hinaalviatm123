@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 console.log("Wellcome to My ATM Machine!");
 let mybalance = 20000; //Dollar
